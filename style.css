@@ -1,0 +1,107 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* h2{
+    color: blue;
+}
+.backImg{
+    width: 100;
+    height: 100vh;
+    background-color: green;
+    background-image: url(Screenshot\ \(9\).png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+p{
+    font-variant: small-caps;
+     font-size: 2em;  /*1em = 16px */
+     /* font-style: italic;
+     font-weight: bold;
+}
+.text{
+    color: red;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    direction: ltr;
+    text-indent: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+a:link{
+    color: red;
+}
+a:hover{
+    color: yellow;
+}
+a:visited{
+    color: green;
+}
+a:active{
+    color: blue;
+} */ 
+/* .borderCSS{
+    background-color: red;
+    width: 500px;
+    height: 300px;
+    /* border-width: 5px;
+    border-color: black;
+    border-style: solid; */
+    /* border: 2px solid black;
+    border-radius: 10px;} */
+
+/* p{
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    overflow: auto;
+} */
+.father{
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+}
+.child1{
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    /* left: 0; */
+}
+.child2{
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+    position: absolute;
+    /* right: 0; */
+    z-index: 1;
+}
+.child3{
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    /* bottom: 0;
+    right: 0; */
+    z-index: 2;
+}
+.child4{
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    /* bottom: 0; */
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.logo{
+    width: 10%;
+    height: 80px;
+    background-color: orange;
+    text-align: center;
+}
